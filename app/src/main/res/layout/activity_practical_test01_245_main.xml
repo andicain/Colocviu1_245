@@ -17,18 +17,20 @@
 
         <EditText
             android:id="@+id/nextterm"
-            android:layout_width="133pt"
-            android:layout_height="33pt"
+            android:layout_width="120pt"
+            android:layout_height="30pt"
             android:layout_row="0"
             android:layout_column="0"
+            android:inputType="number"
+            android:autofillHints="Next terms"
             android:visibility="visible" />
 
         <Button
-            android:id="@+id/add"
-            android:layout_width="66pt"
-            android:layout_height="33pt"
-            android:layout_row="1"
-            android:layout_column="0"
+            android:id="@+id/addplus"
+            android:layout_width="60pt"
+            android:layout_height="30pt"
+            android:layout_row="0"
+            android:layout_column="1"
             android:text="ADD"
             android:visibility="visible" />
     </GridLayout>
@@ -36,13 +38,14 @@
     <TextView
         android:id="@+id/allterms"
         android:layout_width="match_parent"
-        android:layout_height="33pt"
+        android:layout_height="30pt"
+        android:autofillHints="All terms"
         android:visibility="visible" />
 
     <Button
         android:id="@+id/compute"
         android:layout_width="match_parent"
-        android:layout_height="33pt"
+        android:layout_height="30pt"
         android:text="COMPUTE"
         android:visibility="visible" />
 
